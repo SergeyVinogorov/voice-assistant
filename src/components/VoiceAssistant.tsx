@@ -18,6 +18,7 @@ export const VoiceAssistant: React.FC = () => {
         recognition.onstart = () => setListening(true);
         recognition.onend = () => setListening(false);
 
+        // @ts-ignore
         recognition.onresult = async (event) => {
             const transcript = event.results[0][0].transcript;
             setMessages((prev) => [...prev, `🗣️ You: ${transcript}`]);
