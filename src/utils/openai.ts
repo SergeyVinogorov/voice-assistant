@@ -1,5 +1,5 @@
-const apiKey = process.env.VOICE_ASSISTANCE_KEY;
 export async function askAI(prompt:string): Promise<string> {
+    const apiKey = import.meta.env.VITE_VOICE_ASSISTANCE_KEY;
     const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {

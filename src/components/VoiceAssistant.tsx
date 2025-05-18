@@ -45,7 +45,7 @@ export const VoiceAssistant: React.FC = () => {
 
             <div className="mt-6 space-y-3">
                 {messages.map((msg, idx) => (
-                    <div key={idx} className="bg-gray-100 p-3 rounded-md shadow-sm text-gray-800">
+                    <div key={idx} className="bg-gray-100 p-3 rounded-md shadow-sm text-gray">
                         {msg}
                     </div>
                 ))}

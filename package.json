@@ -7,11 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview --port 8080",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/SergeyVinogorov/voice-assistant",
+  "homepage": "https://sergeyvinogorov.github.io/voice-assistant/",
   "dependencies": {
     "@types/dom-speech-recognition": "^0.0.6",
     "react": "^19.1.0",
