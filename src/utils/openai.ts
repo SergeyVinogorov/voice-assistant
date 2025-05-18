@@ -1,8 +1,9 @@
+const apiKey = process.env.VOICE_ASSISTANCE_KEY;
 export async function askAI(prompt:string): Promise<string> {
     const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
-            "Authorization": `Bearer ${{ secrets.VOICE_ASSISTANCE_KEY }}`, // <-- Replace with real key
+            "Authorization": `Bearer ${apiKey}`,
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
