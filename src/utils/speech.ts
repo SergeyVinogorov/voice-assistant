@@ -5,6 +5,8 @@ export function speak(text:string) {
 
 export function getSpeechRecognition(): SpeechRecognition | null {
     const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition;
-    if (!SpeechRecognition) return null;
-    return new SpeechRecognition();
+    return SpeechRecognition ? new SpeechRecognition() : null;
+}
+export function stopSpeaking() {
+    speechSynthesis.cancel();
 }
