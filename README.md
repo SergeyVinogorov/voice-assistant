@@ -15,8 +15,6 @@ This app allows you to:
 
 🌐 [Try it on GitHub Pages](https://sergeyvinogorov.github.io/voice-assistant)
 
-> Replace with your actual GitHub Pages URL after deployment.
-
 ---
 
 ## 🛠 Tech Stack
