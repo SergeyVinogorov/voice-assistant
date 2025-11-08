@@ -13,7 +13,7 @@ This app allows you to:
 
 ## 🚀 Live Demo
 
-🌐 [Try it on GitHub Pages](https://your-username.github.io/voice-assistant)
+🌐 [Try it on GitHub Pages](https://sergeyvinogorov.github.io/voice-assistant)
 
 > Replace with your actual GitHub Pages URL after deployment.
 
